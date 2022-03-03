@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Portfolio";
+}
+
+<section id="portfolio" class="portfolio">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Portfolio</h2>
+
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-HTML">HTML</li>
+                    <li data-filter=".filter-C">C#</li>
+                    <li data-filter=".filter-MVC">MVC</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-HTML">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/styles/img/LegoBody.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Lego Consultants</h4>
+                        <p>HTML, CSS</p>
+                        <div>Website built from scratch using only HTML and CSS.</div>
+                        <div class="portfolio-links">
+                            <a href="http://lc.austinwallace.net/" title="Lego Consultants" target="_blank"><i class="fa fa-link"></i></a>
+                            <a href="https://github.com/AusWallace56/FED1StudioProject" title="GitHub" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-C">
+                <div class="portfolio-wrap">
+                    <img src="~/Content/styles/img/Dungeon.jpg" class="img-fluid" alt="" />
+                    <div class="portfolio-info">
+                        <h4>Paragon's Call</h4>
+                        <p>C#</p>
+                        <div>A dungeon crawler console game built with C#. How far can you make it?</div>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/AusWallace56/DungeonApp" title="GitHub" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
