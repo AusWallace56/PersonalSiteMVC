@@ -124,6 +124,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -285,6 +286,7 @@
     <Content Include="Content\styles\vendor\boxicons\fonts\boxicons.ttf" />
     <Content Include="Content\styles\vendor\boxicons\fonts\boxicons.woff" />
     <Content Include="Content\styles\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="configs\AppSecretKeys.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -308,7 +310,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="_Archive\styles\vendor\bootstrap-icons\bootstrap-icons.json" />
     <Content Include="_Archive\styles\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
@@ -343,10 +344,11 @@
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\EmailConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

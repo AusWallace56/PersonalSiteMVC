@@ -102,7 +102,9 @@
     <script src="~/Content/styles/js/main.js"></script>
 
     <script src="~/Scripts/jquery-3.3.1.js"></script>
-
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
     <script>
         $('nav ul li').each(function () {
             if ($(this).find('a').attr('href') == window.location.pathname) {
