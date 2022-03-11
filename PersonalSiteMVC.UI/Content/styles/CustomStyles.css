@@ -1,0 +1,23 @@
+﻿.navbar ul li.active a:before {
+    visibility: visible;
+    width: 25px;
+}
+
+.contact .button {
+    background: #34b7a7;
+    border: 0;
+    padding: 10px 30px 12px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-top: 1.5em;
+}
+
+    .contact .button:hover {
+        background: #3dc8b7;
+    }
+
+    .confirmation {
+        margin-top: 3.5em;
+        text-align: center;
+    }

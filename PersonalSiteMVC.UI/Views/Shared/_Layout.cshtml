@@ -27,6 +27,8 @@
     <link href="~/Content/styles/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="~/Content/styles/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+    <link href="~/Content/styles/CustomStyles.css" rel="stylesheet" />
+
     <!-- Template Main CSS File -->
     <link href="~/Content/styles/css/style.css" rel="stylesheet">
 
@@ -102,9 +104,7 @@
     <script src="~/Content/styles/js/main.js"></script>
 
     <script src="~/Scripts/jquery-3.3.1.js"></script>
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+
     <script>
         $('nav ul li').each(function () {
             if ($(this).find('a').attr('href') == window.location.pathname) {
@@ -112,6 +112,11 @@
             }
         });
     </script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
 
 </body>
 
