@@ -143,7 +143,9 @@
     <Content Include="Content\styles\img\PersonalSiteBackground.jpg" />
     <Content Include="Content\styles\img\RomeoLink.jpg" />
     <Content Include="Content\styles\img\SeanLink.jpg" />
+    <Content Include="Content\styles\img\Storefront.PNG" />
     <Content Include="Content\styles\img\Untitled design.png" />
+    <Content Include="Content\styles\img\WeddingHands.jpg" />
     <Content Include="Content\styles\img\ZakLink.jpg" />
     <Content Include="Content\styles\js\main.js" />
     <Content Include="Content\styles\vendor\aos\aos.css" />
