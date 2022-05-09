@@ -134,6 +134,7 @@
     <Content Include="Content\styles\img\ConnorLink.jpg" />
     <Content Include="Content\styles\img\Dungeon.jpg" />
     <Content Include="Content\styles\img\favicon-16x16.png" />
+    <Content Include="Content\styles\img\FunksMusic.PNG" />
     <Content Include="Content\styles\img\JazmineLink.jpg" />
     <Content Include="Content\styles\img\KaylaLink.jpg" />
     <Content Include="Content\styles\img\LegoBody.jpg" />
@@ -144,8 +145,10 @@
     <Content Include="Content\styles\img\RomeoLink.jpg" />
     <Content Include="Content\styles\img\SeanLink.jpg" />
     <Content Include="Content\styles\img\Storefront.PNG" />
+    <Content Include="Content\styles\img\ToDoAPI.PNG" />
     <Content Include="Content\styles\img\Untitled design.png" />
     <Content Include="Content\styles\img\WeddingHands.jpg" />
+    <Content Include="Content\styles\img\WIGFH.png" />
     <Content Include="Content\styles\img\ZakLink.jpg" />
     <Content Include="Content\styles\js\main.js" />
     <Content Include="Content\styles\vendor\aos\aos.css" />
